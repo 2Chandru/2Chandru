@@ -9,6 +9,13 @@ app_license = "mit"
 # Includes in <head>
 # ------------------
 
+doc_events = {
+    "Sales Invoice": {
+        "on_submit": "my_app.my_custom_module.on_submit_sales_invoice"
+    }
+}
+
+
 # include js, css files in header of desk.html
 # app_include_css = "/assets/my_app/css/my_app.css"
 # app_include_js = "/assets/my_app/js/my_app.js"
